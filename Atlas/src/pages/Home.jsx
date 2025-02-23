@@ -1,3 +1,7 @@
-export const Home=()=>{
-    return <h1>Home Page</h1>
+import { Herosection } from "../components/UI/Herosection"
+
+export const Home = () => {
+    return (
+        <Herosection/>
+    )
 }
