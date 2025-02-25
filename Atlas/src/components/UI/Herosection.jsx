@@ -1,4 +1,5 @@
 import { FaArrowRight } from "react-icons/fa6";
+import { NavLink } from "react-router-dom";
 export const Herosection=()=>{
     return (
         <main className="hero-section main">
@@ -11,9 +12,10 @@ export const Herosection=()=>{
                             <p className="paragraph">
                                 Discover the history, culture, and beauty of each destination. From the bustling streets of major cities to the serene landscapes of the countryside, every country has a unique story to tell and countless experiences to offer.
                             </p>
-                            <button className="btn btn-darker btn-inline bg-white-box   ">
+                            <NavLink to="/country">
+                            <button className="btn btn-darker btn-inline bg-white-box   " >
                                 Start Exploring <FaArrowRight />
-                            </button>
+                            </button></NavLink>
         
                         </div>
                         <div className="hero-image">
