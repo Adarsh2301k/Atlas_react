@@ -2,7 +2,7 @@ import { useEffect, useState, useTransition } from "react";
 import { getCountryData } from "../api/postApi";
 import { Loader } from "../components/UI/Loader";
 import { CountryCard } from "../components/Layout/CountryCard";
-import { SearchFilter } from "../components/UI/SearchFilter"; // Corrected the typo in the import statement
+import { SearchFilter } from "../components/UI/SearchFilter";
 
 export const Country = () => {
   const [isPending, startTransition] = useTransition();
